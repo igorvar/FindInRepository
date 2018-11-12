@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FIR.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SiebelDbConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Persist Security Info=False;User ID=siebel;Password=Qwer1234;Initial Catalog=siebeldb;Server=sbl16dev&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Persist Security Info=False;User ID=siebel;Password=Qwer1234;Initial Catalog=siebeldb;Server=sbl16dev</Value>
+    </Setting>
+    <Setting Name="GroupsOfTypes" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;BrowserScripts:02 Applet Browser Script,05 Application Browser Script,08 BC Browser Script&lt;/string&gt;
+  &lt;string&gt;ServerScrips:02 Applet Browser Script,03 Applet Server Script,06 Application Server Script,09 BC Server Script,16 BS Server function&lt;/string&gt;
+  &lt;string&gt;Code:02 Applet Browser Script,03 Applet Server Script,05 Application Browser Script,06 Application Server Script,08 BC Browser Script,09 BC Server Script,15 BS Browser function,16 BS Server function&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
